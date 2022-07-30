@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,700&family=Roboto+Slab:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#personal-logo {
+    filter: invert(1);
+    width: 60px;
+    height: 60px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:hover{
+  color: #e7717d;
+}
+
+/*landing page*/
+
+#landing-page{
+    min-height: 100vh;
+}
+
+section{
+    background-color: white;
+}
+
+.title{
+    font-size: 76px;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1;
+}
+
+.title--secondary{
+    margin-bottom: 20px;
+}
+
+#wave{
+    position: relative;
+    transform: all 300ms ease;
+}
+
+.header__para{
+    font-size: 24px;
+    line-height: 2;
+    max-width: 500px;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1000px;
+}
+
+.secondary{
+    color: #e7717d;
+}
+
+
+/*navigation*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;;
+    height: 100px;
+
+}
+
+.nav__link--list{
+    display: flex;
+}
+
+.nav__link{
+    margin: 0 12px;
+}
+
+.nav__link--anchor{
+    text-decoration: none;
+    font-size: 16px;
+    color: #242424;
+
+}
+
+.fa-adjust{
+    font-size: 20px;
+}
