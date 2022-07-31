@@ -356,9 +356,6 @@ nav{
     line-height: 1.75;
 }
 
-.modal__overlay--visible{
-z-index: 1;
-}
 
 .form__iem{
     margin-bottom: 20px;
@@ -401,8 +398,12 @@ z-index: -1;
     font-weight: 700;
     text-align: center;
     padding: 28px;
-    z-index: -1;
+    
 }
+
+.modal__overlay--visible{
+    z-index: 1;
+   }
 
 .modal__overlay{
 position: absolute;
@@ -413,6 +414,7 @@ height: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+z-index: -1;
 }
 
 
